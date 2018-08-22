@@ -34,3 +34,10 @@
     border-radius: 5px;
   }
 }
+
+.slide {
+  &__img {
+    max-width: 100px;
+    width: 100%;
+  }
+}

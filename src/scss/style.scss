@@ -1,20 +1,26 @@
 //utils
 @import "utils/variables";
 @import "utils/fonts";
+
 //libraries
 @import "~bootstrap/scss/bootstrap";
 @import "~slick-carousel/slick/slick";
+
 //partials
 @import "partials/common";
 @import "partials/header";
 @import "partials/footer";
-//responsive
-@import "utils/responsive";
 
 //index page
-@import "./partials/indexPage/carBrands";
-@import "partials/indexPage/indexContent";
-@import "./partials/indexPage/slider";
-@import "./partials/indexPage/map";
+@import "./partials/index/carBrands";
+@import "partials/index/indexContent";
+@import "./partials/index/slider";
+@import "./partials/index/map";
 //personal page
-@import "partials/personalPage/personalContent";
+@import "partials/personal/personalContent";
+//product page
+@import "partials/product/productView";
+@import "partials/product/productDesc";
+
+//responsive
+@import "utils/responsive";

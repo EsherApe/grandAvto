@@ -3,23 +3,23 @@
 <section class="slider">
     <h2 class="slider__title text-center"><%- title %></h2>
     <div class="slider__carousel">
-        <% for(var i = 1; i < 8; i++) { %>
+        <% items.forEach((item, i) => { %>
         <div class="slide">
             <div class="d-flex">
                 <div class="mr-4">
-                    <img src="./img/slider__img--<%- i %>.png" alt="" class="slide__img">
+                    <img src="./img/slider/slider__img--<%- ++i %>.png" alt="" class="slide__img">
                 </div>
                 <div class="slide__text-content">
-                    <h3 class="slide__title"><%- items[0].title %></h3>
-                    <span class="slide__text"><%- items[0].text %></span>
+                    <h3 class="slide__title"><%- item.title %></h3>
+                    <span class="slide__text"><%- item.text %></span>
                 </div>
             </div>
             <div class="slide__buttons d-flex justify-content-around mt-3">
-                <a href="#" class="btn btn-default"><%- items[0].buttons[0] %></a>
-                <a href="#" class="btn btn-primary"><%- items[0].buttons[1] %></a>
-                <a href="#" class="btn btn-default text-danger"><%- items[0].buttons[2] %></a>
+                <a href="#" class="btn btn-default"><%- item.buttons[0] %></a>
+                <a href="#" class="btn btn-primary"><%- item.buttons[1] %></a>
+                <a href="#" class="btn btn-default text-danger"><%- item.buttons[2] %></a>
             </div>
         </div>
-        <% } %>
+        <% }) %>
     </div>
 </section>

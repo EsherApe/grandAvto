@@ -105,9 +105,172 @@
       }
     ]
   },
+  "productContent": {
+    "productView": {
+      "price": "500$",
+      "status": "товар в наличии",
+      "tip": "заказать в один клик",
+      "buyBtn": "купить",
+      "addBtn": "Добавить в корзину",
+      "productFeatures": [
+        "Производитель",
+        "Срок поставки",
+        "На складе: 2",
+        "Страна производитель"
+      ]
+    },
+    "productInfo": {
+      "desc": {
+        "id": "desc",
+        "btn": "Описание",
+        "text": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mi massa, faucibus sit amet eleifend in, fringilla sit amet tellus. In malesuada tincidunt urna, a ornare mauris efficitur in. Pellentesque at enim suscipit, rhoncus purus eget, vestibulum leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sed blandit libero. Fusce dictum sem tortor, non egestas ex molestie eget. Nam luctus hendrerit libero, et suscipit eros vestibulum a. Pellentesque ac tincidunt tellus. In hac habitasse platea dictumst.",
+          "Pellentesque feugiat, sem quis tristique cursus, est ipsum pulvinar tortor, vitae efficitur augue eros vel lectus. Nam sodales sapien mauris, tempus tempus turpis luctus eu. Fusce luctus blandit lacinia. Sed metus lacus, interdum et sapien sit amet, viverra feugiat ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat interdum tortor egestas maximus. Etiam imperdiet suscipit rutrum. In gravida mi non risus eleifend, sed fringilla nunc mattis. Sed eget turpis dolor. Etiam tincidunt nisi et nisl gravida consectetur."
+        ]
+      },
+      "features": {
+        "id": "features",
+        "btn": "Характеристики",
+        "text": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mi massa, faucibus sit amet eleifend in, fringilla sit amet tellus. In malesuada tincidunt urna, a ornare mauris efficitur in. Pellentesque at enim suscipit, rhoncus purus eget, vestibulum leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sed blandit libero. Fusce dictum sem tortor, non egestas ex molestie eget. Nam luctus hendrerit libero, et suscipit eros vestibulum a. Pellentesque ac tincidunt tellus. In hac habitasse platea dictumst.",
+          "Pellentesque feugiat, sem quis tristique cursus, est ipsum pulvinar tortor, vitae efficitur augue eros vel lectus. Nam sodales sapien mauris, tempus tempus turpis luctus eu. Fusce luctus blandit lacinia. Sed metus lacus, interdum et sapien sit amet, viverra feugiat ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat interdum tortor egestas maximus. Etiam imperdiet suscipit rutrum. In gravida mi non risus eleifend, sed fringilla nunc mattis. Sed eget turpis dolor. Etiam tincidunt nisi et nisl gravida consectetur."
+        ]
+      },
+      "reviews": {
+        "id": "reviews",
+        "btn": "Отзывы",
+        "text": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mi massa, faucibus sit amet eleifend in, fringilla sit amet tellus. In malesuada tincidunt urna, a ornare mauris efficitur in. Pellentesque at enim suscipit, rhoncus purus eget, vestibulum leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sed blandit libero. Fusce dictum sem tortor, non egestas ex molestie eget. Nam luctus hendrerit libero, et suscipit eros vestibulum a. Pellentesque ac tincidunt tellus. In hac habitasse platea dictumst.",
+          "Pellentesque feugiat, sem quis tristique cursus, est ipsum pulvinar tortor, vitae efficitur augue eros vel lectus. Nam sodales sapien mauris, tempus tempus turpis luctus eu. Fusce luctus blandit lacinia. Sed metus lacus, interdum et sapien sit amet, viverra feugiat ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat interdum tortor egestas maximus. Etiam imperdiet suscipit rutrum. In gravida mi non risus eleifend, sed fringilla nunc mattis. Sed eget turpis dolor. Etiam tincidunt nisi et nisl gravida consectetur."
+        ]
+      }
+    }
+  },
   "actionsSlider": {
     "title": "Акции компании",
     "items": [
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      }
+    ]
+  },
+  "similarSlider": {
+    "title": "Похожие товары",
+    "items": [
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      },
       {
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",

@@ -1,0 +1,28 @@
+.productView {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  &__slider {
+
+  }
+  &__slider-nav {
+    .slick-slide {
+      padding: 15px;
+      border-radius: 5px;
+      margin: 2rem;
+    }
+    img {
+      width: 100%;
+      max-width: 100px;
+      box-shadow: 11px 11px 20px #c1c1c1;
+    }
+  }
+  &__price {
+    font-size: 5rem;
+  }
+  &__order-box {
+    padding-left: 5rem;
+  }
+  &__bg-img {
+    margin-top: -70px;
+  }
+}

@@ -27,7 +27,7 @@
             </div>
             <div class="footer__column col-12 col-md-3">
                 <div class="d-flex align-items-center h-100">
-                    <img src="./img/logo.svg" alt="logo" class="img-fluid">
+                    <img src="./img/common/logo.svg" alt="logo" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -39,11 +39,11 @@
                 <div class="col-6 col-sm-3">
                     <div class="footer__social-list">
                         <ul class="list-unstyled d-flex m-0">
-                            <li class="footer__list-item"><a href="#"><img src="./img/social__tw.svg" alt=""></a></li>
-                            <li class="footer__list-item"><a href="#"><img src="./img/social__in.svg" alt=""></a></li>
-                            <li class="footer__list-item"><a href="#"><img src="./img/social__fb.svg" alt=""></a></li>
-                            <li class="footer__list-item"><a href="#"><img src="./img/social__gp.svg" alt=""></a></li>
-                            <li class="footer__list-item"><a href="#"><img src="./img/social__li.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/footer/social__tw.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/footer/social__in.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/footer/social__fb.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/footer/social__gp.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/footer/social__li.svg" alt=""></a></li>
                         </ul>
                     </div>
                 </div>

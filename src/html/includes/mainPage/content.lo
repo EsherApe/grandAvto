@@ -11,14 +11,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <img src="./img/hyundai__img.png" alt="" class="indexContent__features-img">
+                    <img src="./img/indexPage/hyundai__img.png" alt="" class="indexContent__features-img">
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="indexContent__box">
                         <ul class="list-unstyled indexContent__features-list">
                             <% features.forEach((feature, i) => { %>
                             <li class="indexContent__features-list-item">
-                                <img src="./img/feature__icon--<%- ++i %>.svg" alt="" class="indexContent__features-list-icon">
+                                <img src="./img/indexPage/feature__icon--<%- ++i %>.svg" alt="" class="indexContent__features-list-icon">
                                 <span class=""><%- feature %></span>
                             </li>
                             <% }) %>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="./img/kia__img.png" alt="" class="indexContent__contacts-img">
+                    <img src="./img/indexPage/kia__img.png" alt="" class="indexContent__contacts-img">
                 </div>
             </div>
         </div>

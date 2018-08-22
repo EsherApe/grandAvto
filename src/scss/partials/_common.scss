@@ -20,11 +20,12 @@ h2 {
 }
 
 .btn {
-  font-size: 1.4rem;
+  font-size: 12px;
+  padding: 6px 12px;
 }
 
 .wrapper {
-  background: url("../img/main__bg.png") 0 0;
+  background: url("../img/common/main__bg.png") 0 0;
   background-size: contain;
   overflow: hidden;
 }
@@ -50,6 +51,23 @@ h2 {
   }
 }
 
+.tab-content {
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 400;
+  &.active {
+    background: linear-gradient(to right, $primary, $danger);
+    color: #fff;
+  }
+}
+
+.slick-next:before, .slick-prev:before {
+  color: $primary!important;
+}
+
 .form-control {
   border-radius: 50px;
   font-size: 12px;
@@ -64,4 +82,11 @@ h2 {
 
 .input-group-text {
   background-color: #fff;
+}
+
+.custom-btn {
+  background: linear-gradient(to right, $primary, $danger);
+  color: #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
 }

@@ -1,0 +1,89 @@
+<% let {
+    productView: {price, status, tip, buyBtn, addBtn, productFeatures},
+    productInfo: {desc, features, reviews}
+} = content %>
+
+<section class="productView">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-8 offset-sm-2">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="productView__slider">
+                            <div class="productView__slider-img">
+                                <% for (var i = 1; i < 8; i++) { %>
+                                <div><img src="./img/slider/slider__img--big.png" alt="" class="img-fluid"></div>
+                                <% } %>
+                            </div>
+                            <div class="productView__slider-nav">
+                                <% for (var i = 1; i < 8; i++) { %>
+                                <div><img src="./img/slider/slider__img--big.png" alt="" class="img-fluid"></div>
+                                <% } %>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="productView__order-box">
+                            <div class="mb-3">
+                                <span class="productView__price text-primary mr-3"><%- price %></span>
+                                <span class="productView__status text-success"><%- status %></span>
+                            </div>
+                            <div class="mb-3">
+                                <span class="productView__tip"><%- tip %></span>
+                                <div class="input-group mb-3">
+                                    <input type="tel" class="form-control" placeholder="Телефон">
+                                    <div class="input-group-append">
+                                        <a href="tel:+380987705811" class="btn" type="button">
+                                            <img src="./img/header/phone__icon.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="btn custom-btn btn-block mb-3"><%- buyBtn %></button>
+                                <button class="btn custom-btn btn-block mb-3"><%- addBtn %></button>
+                                <% productFeatures.forEach((feature) => { %>
+                                <div><strong><%- feature %></strong></div>
+                                <% }) %>
+                                <div>
+                                    <img src="./img/productPage/product__bg.png" alt="" class="productView__bg-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="productView__nav">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#<%- desc.id %>"
+                           role="tab"><%- desc.btn %></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#<%- features.id %>"
+                           role="tab"><%- features.btn %></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#<%- reviews.id %>"
+                           role="tab"><%- reviews.btn %></a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="<%- desc.id %>" role="tabpanel">
+                        <% desc.text.forEach((text) => { %>
+                        <p><%- text %></p>
+                        <% }) %>
+                    </div>
+                    <div class="tab-pane fade" id="<%- features.id %>" role="tabpanel">
+                        <% features.text.forEach((text) => { %>
+                        <p><%- text %></p>
+                        <% }) %>
+                    </div>
+                    <div class="tab-pane fade" id="<%- reviews.id %>" role="tabpanel">
+                        <% reviews.text.forEach((text) => { %>
+                        <p><%- text %></p>
+                        <% }) %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

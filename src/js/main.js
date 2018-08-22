@@ -3,4 +3,7 @@ import 'bootstrap';
 import 'slick-carousel';
 
 //partials
-import './partials/slider';
+import './partials/common';
+import './partials/index';
+import './partials/personal';
+import './partials/product';

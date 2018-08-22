@@ -20,5 +20,8 @@
                 <% }) %>
             </ul>
         </div>
+        <div class="personalContent__img-box">
+            <img src="./img/personalPage/personal__bg.png" alt="" class="personalContent__img img-fluid">
+        </div>
     </div>
 </section>
