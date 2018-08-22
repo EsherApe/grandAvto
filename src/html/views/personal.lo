@@ -1,0 +1,22 @@
+<%
+//text data
+var {head, footer, personalContent, map} = require('../../data.json');
+//templates
+var headerTpl = require('../includes/common/header.lo');
+var topCarouselTpl = require('../includes/common/topCarousel.lo');
+var contentTpl = require('../includes/personalPage/content.lo');
+var mapTpl = require('../includes/common/map.lo');
+var footerTpl = require('../includes/common/footer.lo');
+//function return template options
+var options = (name) => ({variable: name});
+%>
+
+<%= _.template(headerTpl, options('head'))(head) %>
+
+<main class="main">
+    <%= _.template(topCarouselTpl)() %>
+    <%= _.template(contentTpl, options('content'))(personalContent) %>
+    <%= _.template(mapTpl, options('map'))(map) %>
+</main>
+
+<%= _.template(footerTpl, options('footer'))(footer) %>

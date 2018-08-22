@@ -1,0 +1,46 @@
+.carBrands {
+  &__btn {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+  &__content {
+    position: relative;
+    width: 450px;
+    height: 200px;
+    transform: skew(-30deg);
+    background-color: #fff;
+    box-shadow: 11px 11px 20px #c1c1c1;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &__box {
+    transform: skew(30deg);
+    width: 120%;
+    margin-left: -12%;
+    opacity: 0.4;
+    &--hyundai {
+      background: url(../img/hyundai__logo.png) -35% 170% no-repeat;
+      background-size: 65%;
+    }
+    &--kia {
+      background: url(../img/kia__logo.png) -35% 170% no-repeat;
+      background-size: 65%;
+    }
+  }
+  &__title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #000000;
+    font-weight: 600;
+    font-size: 4rem;
+    transform: skew(30deg);
+  }
+}

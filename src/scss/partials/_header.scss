@@ -1,0 +1,50 @@
+.header {
+  padding-top: 2rem;
+  margin-bottom: 15px;
+  &__contacts {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 0 15px 0 150px;
+    text-align: right;
+    z-index: 9;
+  }
+  &__search {
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: 460px;
+  }
+}
+
+.vinSearch {
+  max-width: 500px;
+  margin: 50px auto 40px;
+  &__input {
+    border: 2px solid #6A8BE2;
+  }
+  .input-group-text {
+    border: 2px solid #6A8BE2;
+  }
+}
+
+.navbar-brand {
+  margin-right: 4rem;
+  span {
+    &:first-child {
+      width: 160px;
+      height: 75px;
+      line-height: normal;
+      font-size: 75px;
+      text-align: center;
+    }
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+li.nav-item {
+  margin: 0 3px;
+}

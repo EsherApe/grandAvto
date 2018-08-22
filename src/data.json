@@ -1,0 +1,159 @@
+{
+  "head": {
+    "title": "Grand-Auto",
+    "contacts": [
+      "+380987705811",
+      "+380502040443",
+      "+380634998335",
+      "+380933771737"
+    ],
+    "navbar": {
+      "main": "Главная",
+      "catalog": "Каталог",
+      "news": "Новости",
+      "about": "О нас",
+      "delivery": "Доставка",
+      "actions": "Акции"
+    }
+  },
+  "vinSearch": {
+    "placeholder": "поиск по vin коду"
+  },
+  "carBrands": [
+    "hyundai",
+    "kia"
+  ],
+  "mainContent": {
+    "title": "Grand Auto",
+    "text": "Лидер в области розничных и оптовых продаж автозапчастаей для автомобилей корейского прозводства.",
+    "features": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Vestibulum interdum, mauris at auctor vestibulum, odio sapien luctus libero, id fringilla nisl risus et purus. Nunc et ante eget risus sodales blandit.",
+      "Nullam malesuada aliquet massa eget tincidunt. Proin sit amet arcu quis massa malesuada dignissim."
+    ],
+    "contacts": {
+      "form": {
+        "title": "ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ",
+        "inputs": [
+          {
+            "type": "text",
+            "placeholder": "Ф.И.О"
+          },
+          {
+            "type": "phone",
+            "placeholder": "Телефон"
+          },
+          {
+            "type": "mail",
+            "placeholder": "E-mail"
+          },
+          {
+            "type": "text",
+            "placeholder": "Задайте вопрос"
+          }
+        ],
+        "button": "отправить"
+      }
+    }
+  },
+  "personalContent": {
+    "title": "Кабинет оптового покупателя",
+    "buttons": [
+      {
+        "text": "мои данные",
+        "link": "#"
+      },
+      {
+        "text": "заказы",
+        "link": "#"
+      },
+      {
+        "text": "оплата",
+        "link": "#"
+      },
+      {
+        "text": "корзина",
+        "link": "#"
+      },
+      {
+        "text": "отправки",
+        "link": "#"
+      },
+      {
+        "text": "форум",
+        "link": "#"
+      },
+      {
+        "text": "возвраты",
+        "link": "#"
+      },
+      {
+        "text": "взаиморасчеты",
+        "link": "#"
+      },
+      {
+        "text": "поддержка",
+        "link": "#"
+      },
+      {
+        "text": "прайс лист",
+        "link": "#"
+      },
+      {
+        "text": "прайс уценка",
+        "link": "#"
+      }
+    ]
+  },
+  "actionsSlider": {
+    "title": "Акции компании",
+    "items": [
+      {
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eius enim eveniet explicabo mollitia repudiandae sapiente sint soluta sunt! Enim exercitationem hic incidunt itaque.",
+        "buttons": [
+          "В наличии",
+          "Купить",
+          "Цена"
+        ]
+      }
+    ]
+  },
+  "map": {
+    "title": "как нас найти",
+    "address": "г.киев ул.новоконстантиновская 4а (вход с ул.алябьева)"
+  },
+  "footer": {
+    "categories": {
+      "title": "Категории",
+      "items": [
+        "Главная",
+        "Партнеры",
+        "Новости",
+        "О компании",
+        "Каталог"
+      ]
+    },
+    "links": {
+      "title": "Ссылки",
+      "items": [
+        "Написать нам",
+        "FAQ",
+        "ЧАВО",
+        "Способы оплаты",
+        "Доставка"
+      ]
+    },
+    "contacts": {
+      "title": "Контакты",
+      "items": [
+        "+380987705818",
+        "+380502040443",
+        "+380634998335",
+        "+380933771737",
+        "info@grand-auto.com.ua"
+      ]
+    },
+    "copyright": "designed by interra. 2018"
+  }
+}

@@ -1,0 +1,57 @@
+<% let {categories, links, contacts, copyright} = footer %>
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer__column col-6 col-md-3">
+                <ul class="list-unstyled">
+                    <% categories.items.forEach((category) => { %>
+                    <li><a href="#" class="footer__link"><%- category %></a></li>
+                    <% }); %>
+                </ul>
+            </div>
+            <div class="footer__column col-6 col-md-3">
+                <ul class="list-unstyled">
+                    <% links.items.forEach((link) => { %>
+                    <li><a href="#" class="footer__link"><%- link %></a></li>
+                    <% }); %>
+                </ul>
+            </div>
+            <div class="footer__column col-6 col-md-3">
+                <ul class="list-unstyled">
+                    <% contacts.items.forEach((contact) => { %>
+                    <li><a href="#" class="footer__link"><%- contact %></a></li>
+                    <% }); %>
+                </ul>
+            </div>
+            <div class="footer__column col-12 col-md-3">
+                <div class="d-flex align-items-center h-100">
+                    <img src="./img/logo.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="row">
+                <div class="col-6 col-sm-3 offset-sm-3">
+                    <div class="footer__copyright"><%- copyright %></div>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <div class="footer__social-list">
+                        <ul class="list-unstyled d-flex m-0">
+                            <li class="footer__list-item"><a href="#"><img src="./img/social__tw.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/social__in.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/social__fb.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/social__gp.svg" alt=""></a></li>
+                            <li class="footer__list-item"><a href="#"><img src="./img/social__li.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="js/bundle.js"></script>
+</body>
+</html>

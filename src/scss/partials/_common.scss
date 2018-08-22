@@ -1,0 +1,67 @@
+@import "../utils/variables";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  color: $main-color;
+  font-weight: 300;
+}
+
+.h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+}
+
+.wrapper {
+  background: url("../img/main__bg.png") 0 0;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.56);
+}
+
+.mainContent {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  &__title {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__text {
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #495057;
+  }
+}
+
+.form-control {
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 6px 12px;
+  height: auto;
+}
+
+.input-group-text {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.input-group-text {
+  background-color: #fff;
+}

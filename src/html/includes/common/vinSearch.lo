@@ -1,0 +1,10 @@
+<section class="vinSearch">
+    <div class="container">
+        <div class="input-group mb-3">
+            <input type="text" class="vinSearch__input form-control" placeholder="<%- search.placeholder %>">
+            <div class="input-group-append">
+                <span class="input-group-text">VIN</span>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+.slider {
+  padding: 0 15rem;
+  margin-bottom: 8rem;
+  &__title {
+    margin-bottom: 6rem;
+  }
+  .slick-arrow {
+    img {
+      margin-top: -32px;
+    }
+    &.slick-prev {
+      &:before {
+        display: none;
+      }
+      img {
+        margin-left: -100px;
+      }
+    }
+    &.slick-next {
+      &:before {
+        display: none;
+      }
+      img {
+        margin-right: -100px;
+      }
+    }
+  }
+
+  .slick-slide {
+    box-shadow: 11px 11px 20px #c1c1c1;
+    background: #fff;
+    margin: 0 2rem 3rem;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,29 @@
+<%
+    //text data
+    var {head, footer, vinSearch, carBrands, mainContent, actionsSlider, map} = require('../../data.json');
+    //templates
+    var headerTpl = require('../includes/common/header.lo');
+    var topCarouselTpl = require('../includes/common/topCarousel.lo');
+    var vinSearchTpl = require('../includes/common/vinSearch.lo');
+    var carBrandsTpl = require('../includes/mainPage/carBrands.lo');
+    var contentTpl = require('../includes/mainPage/content.lo');
+    var sliderTpl = require('../includes/common/slider.lo');
+    var mapTpl = require('../includes/common/map.lo');
+
+    var footerTpl = require('../includes/common/footer.lo');
+    //function return template options
+    var options = (name) => ({variable: name});
+%>
+
+<%= _.template(headerTpl, options('head'))(head) %>
+
+<main class="main">
+    <%= _.template(topCarouselTpl)() %>
+    <%= _.template(vinSearchTpl, options('search'))(vinSearch) %>
+    <%= _.template(carBrandsTpl, options('carBrands'))(carBrands) %>
+    <%= _.template(contentTpl, options('content'))(mainContent) %>
+    <%= _.template(sliderTpl, options('slider'))(actionsSlider) %>
+    <%= _.template(mapTpl, options('map'))(map) %>
+</main>
+
+<%= _.template(footerTpl, options('footer'))(footer) %>

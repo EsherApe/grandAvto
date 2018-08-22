@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 14rem;
+  padding-bottom: 10rem;
+  &__column {
+    margin-bottom: 2rem;
+  }
+  &__btn {
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 0;
+    text-align: left;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+  &__list-item {
+    margin-right: 1rem;
+  }
+  &__bottom {
+    margin-top: 5rem;
+  }
+  &__link {
+    color: #000;
+  }
+}

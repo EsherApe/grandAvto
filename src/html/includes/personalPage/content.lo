@@ -1,0 +1,24 @@
+<% var {title, buttons} = content %>
+
+<section class="mainContent">
+    <div class="container">
+        <h1 class="mainContent__title"><%- title %></h1>
+        <div class="personalContent__items-box">
+            <ul class="list-unstyled personalContent__list d-flex flex-wrap justify-content-around align-items-center">
+                <% buttons.forEach((button, i) => { %>
+                <li class="personalContent__list-item">
+                    <a href="<%- button.link %>" class="personalContent__item-link">
+                        <div class="personalContent__item-wrapper">
+                            <div class="personalContent__item text-center">
+                                <img src="./img/personalPage/item__img--<%- ++i %>.svg" alt=""
+                                     class="personalContent__item-img mr-3">
+                                <span class="personalContent__item-text"><%- button.text %></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+    </div>
+</section>

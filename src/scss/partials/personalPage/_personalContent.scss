@@ -1,0 +1,51 @@
+@import '../../utils/variables';
+
+.personalContent {
+  &__items-box {
+    margin-top: 5rem;
+  }
+  &__item-wrapper {
+    width: 250px;
+    background: #fff;
+    border-radius: 5px;
+    transform: skew(-30deg);
+    padding: 2rem;
+    box-shadow: 0 0 20px $shadow-color;
+  }
+  &__list-item {
+    margin: 1.5rem;
+    &:nth-child(4), &:nth-child(6) {
+      .personalContent__item-wrapper {
+        background-color: $primary;
+        .personalContent__item-text {
+          color: #fff;
+        }
+      }
+    }
+    &:nth-last-child(1), &:nth-last-child(2) {
+      .personalContent__item-wrapper {
+        background-color: $danger;
+        .personalContent__item-text {
+          color: #fff;
+        }
+      }
+    }
+  }
+  &__item {
+    transform: skew(30deg);
+    &-link {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    &-img {
+      max-height: 40px;
+    }
+    &-text {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #333;
+      text-transform: uppercase;
+    }
+  }
+}
