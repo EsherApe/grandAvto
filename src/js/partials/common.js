@@ -11,7 +11,7 @@ $('.slider__carousel').slick({
   prevArrow: prevArrowTpl,
   responsive: [
     {
-      breakpoint: 1400,
+      breakpoint: 1600,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1

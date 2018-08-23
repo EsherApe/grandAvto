@@ -13,5 +13,16 @@ $('.productView__slider-nav').slick({
   slidesToScroll: 1,
   asNavFor: '.productView__slider-img',
   // centerMode: true,
-  focusOnSelect: true
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+      }
+    },
+  ]
 });

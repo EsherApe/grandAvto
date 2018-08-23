@@ -8,16 +8,16 @@
 
             <div class="newsContent__item newsContent__item--padding">
                 <a href="#" class="newsContent__item-link">
-                    <div class="newsContent__box--left">
-                        <h3 class="newsContent__item-title"><%- item.title %></h3>
-                        <p class="newsContent__item-text"><%- item.text %></p>
-                    </div>
                     <div class="newsContent__box--right">
                         <div class="newsContent__item-date"><%- item.date %></div>
                         <div class="newsContent__item-img-box">
                             <img src="./img/newsPage/news__img--<%- ++i %>.jpg" alt=""
                                  class="img-fluid newsContent__item-img">
                         </div>
+                    </div>
+                    <div class="newsContent__box--left">
+                        <h3 class="newsContent__item-title"><%- item.title %></h3>
+                        <p class="newsContent__item-text"><%- item.text %></p>
                     </div>
                 </a>
                 <div><img src="./img/common/share__icon.svg" alt="" class="share-btn"></div>

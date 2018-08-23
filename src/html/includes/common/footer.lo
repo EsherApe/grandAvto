@@ -34,11 +34,11 @@
         <div class="footer__bottom">
             <div class="row">
                 <div class="col-12 col-md-4 offset-md-2">
-                    <div class="footer__copyright text-center mb-4 mb-md-0"><%- copyright %></div>
+                    <div class="footer__copyright text-center mb-3 mb-md-0"><%- copyright %></div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="footer__social-list">
-                        <ul class="list-unstyled d-flex justify-content-center m-0 ">
+                        <ul class="list-unstyled d-flex justify-content-center m-0">
                             <li class="footer__list-item"><a href="#"><img src="./img/footer/social__tw.svg" alt=""></a></li>
                             <li class="footer__list-item"><a href="#"><img src="./img/footer/social__in.svg" alt=""></a></li>
                             <li class="footer__list-item"><a href="#"><img src="./img/footer/social__fb.svg" alt=""></a></li>

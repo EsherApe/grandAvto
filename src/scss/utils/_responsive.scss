@@ -41,6 +41,10 @@
     }
   }
 
+  .vinSearch {
+    margin: 30px auto 20px;
+  }
+
   .carBrands {
     &__content {
       height: 120px;
@@ -62,6 +66,22 @@
     }
     &__contacts-img {
       width: 100%;
+    }
+  }
+
+  .newsContent {
+    margin: 3rem 0;
+    &__box {
+      &--right {
+        position: static;
+        max-width: 100%;
+        margin-bottom: 2rem;
+      }
+    }
+    &__item {
+      &--padding {
+        padding: 0;
+      }
     }
   }
 }
