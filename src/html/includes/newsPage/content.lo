@@ -7,7 +7,7 @@
             <% items.forEach((item, i) => { %>
 
             <div class="newsContent__item newsContent__item--padding">
-                <a href="#" class="newsContent__item-link">
+                <a href="./article.html" class="newsContent__item-link">
                     <div class="newsContent__box--right">
                         <div class="newsContent__item-date"><%- item.date %></div>
                         <div class="newsContent__item-img-box">

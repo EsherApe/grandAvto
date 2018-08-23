@@ -60,7 +60,7 @@
                         <ul class="navbar-nav ml-auto">
                             <% _.each(navbar, (val, key) => { %>
                             <li class="nav-item">
-                                <a class="nav-link" href="#<%- key %>"><%- val %></a>
+                                <a class="nav-link" href="./<%- key %>.html"><%- val %></a>
                             </li>
                             <% }) %>
                             <li class="nav-item">

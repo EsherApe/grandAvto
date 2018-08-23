@@ -18,7 +18,8 @@
                         <ul class="list-unstyled indexContent__features-list">
                             <% features.forEach((feature, i) => { %>
                             <li class="indexContent__features-list-item">
-                                <img src="./img/indexPage/feature__icon--<%- ++i %>.svg" alt="" class="indexContent__features-list-icon">
+                                <img src="./img/indexPage/feature__icon--<%- ++i %>.svg" alt=""
+                                     class="indexContent__features-list-icon">
                                 <span class=""><%- feature %></span>
                             </li>
                             <% }) %>
@@ -37,17 +38,23 @@
                             <h4 class="text-center text-uppercase text-primary mb-4"><%- form.title %></h4>
                             <div class="row">
                                 <div class="col-12 col-lg-8">
-                                    <div class="form__phone-call-bg">
+                                    <div>
                                         <% form.inputs.forEach((input) => { %>
                                         <div class="form-group">
-                                            <input type="<%- input.type %>" class="form-control" id="" placeholder="<%- input.placeholder %>">
+                                            <input type="<%- input.type %>" class="form-control" id=""
+                                                   placeholder="<%- input.placeholder %>">
                                         </div>
                                         <% }) %>
                                     </div>
+                                    <img src="./img/indexPage/phone-call.svg" alt=""
+                                         class="indexContent__img-bg indexContent__img-bg--phone">
                                 </div>
                                 <div class="col-12 col-lg-4">
-                                    <div class="form__mechanic-bg">
-                                        <button type="submit" class="btn btn-primary btn-block"><%- form.button %></button>
+                                    <div class="h-100">
+                                        <button type="submit"
+                                                class="btn btn-primary btn-block"><%- form.button %></button>
+                                        <img src="./img/indexPage/mechanic.svg" alt=""
+                                             class="indexContent__img-bg indexContent__img-bg--mechanic">
                                     </div>
                                 </div>
                             </div>
