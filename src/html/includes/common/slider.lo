@@ -5,9 +5,9 @@
     <div class="slider__carousel">
         <% items.forEach((item, i) => { %>
         <div class="slide">
-            <div class="d-flex">
-                <div class="mr-4">
-                    <img src="./img/slider/slider__img--<%- ++i %>.png" alt="" class="slide__img">
+            <div class="d-block d-sm-flex">
+                <div class="mr-0 mb-4 mb-sm-0 mr-sm-4">
+                    <img src="./img/slider/slider__img--<%- ++i %>.png" alt="" class="slide__img m-auto">
                 </div>
                 <div class="slide__text-content">
                     <h3 class="slide__title"><%- item.title %></h3>

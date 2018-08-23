@@ -1,0 +1,38 @@
+<% let {title, items, showMore} = content %>
+
+<section class="mainContent">
+    <div class="container">
+        <div class="mainContent__title text-left"><%- title %></div>
+        <div class="newsContent">
+            <% items.forEach((item, i) => { %>
+
+            <div class="newsContent__item newsContent__item--padding">
+                <a href="#" class="newsContent__item-link">
+                    <div class="newsContent__box--left">
+                        <h3 class="newsContent__item-title"><%- item.title %></h3>
+                        <p class="newsContent__item-text"><%- item.text %></p>
+                    </div>
+                    <div class="newsContent__box--right">
+                        <div class="newsContent__item-date"><%- item.date %></div>
+                        <div class="newsContent__item-img-box">
+                            <img src="./img/newsPage/news__img--<%- ++i %>.jpg" alt=""
+                                 class="img-fluid newsContent__item-img">
+                        </div>
+                    </div>
+                </a>
+                <div><img src="./img/common/share__icon.svg" alt="" class="share-btn"></div>
+            </div>
+            <hr>
+            <% }) %>
+            <h3 class="text-center">
+                <a href="#" class="newsContent__show-more-btn text-uppercase">
+                    <%- showMore %> <br>
+                    <img src="./img/common/down-chevron.svg" alt="" class="icon-size">
+                </a>
+            </h3>
+        </div>
+        <div>
+            <img src="./img/newsPage/news__bg.png" alt="" class="newsContent__bg img-fluid">
+        </div>
+    </div>
+</section>

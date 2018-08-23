@@ -1,0 +1,42 @@
+@import "../../utils/variables";
+@import "../../utils/mixins";
+
+.newsContent {
+  margin: 5rem 0;
+  padding: 4rem 15px 15px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 $shadow-color;
+  border-radius: 5px;
+  &__item {
+    position: relative;
+    &--padding {
+      padding-right: 180px;
+    }
+    &-link {
+      @include black-link;
+    }
+    &-title {
+      margin-bottom: 1.5rem;
+    }
+    &-date {
+      margin-bottom: 2rem;
+      text-align: right;
+      font-weight: 600;
+    }
+  }
+  &__box {
+    &--right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 160px;
+    }
+  }
+  &__bg {
+    filter: grayscale(100%);
+    opacity: 0.6;
+  }
+  &__show-more-btn {
+    @include black-link;
+  }
+}

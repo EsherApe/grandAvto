@@ -1,8 +1,8 @@
 <section class="top text-center">
     <div class="top__carousel">
-        <div><img src="./img/indexPage/top__slide1.jpg" alt="" class=""></div>
-        <div><img src="./img/indexPage/top__slide2.jpg" alt="" class=""></div>
-        <div><img src="./img/indexPage/top__slide3.jpg" alt="" class=""></div>
-        <div><img src="./img/indexPage/top__slide4.jpg" alt="" class=""></div>
+        <div><img src="./img/indexPage/top__slide1.jpg" alt="" class="img-fluid"></div>
+        <div><img src="./img/indexPage/top__slide2.jpg" alt="" class="img-fluid"></div>
+        <div><img src="./img/indexPage/top__slide3.jpg" alt="" class="img-fluid"></div>
+        <div><img src="./img/indexPage/top__slide4.jpg" alt="" class="img-fluid"></div>
     </div>
 </section>

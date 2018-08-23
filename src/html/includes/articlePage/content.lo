@@ -1,0 +1,26 @@
+<% let {title, article} = content %>
+
+<section class="mainContent">
+    <div class="container">
+        <div class="mainContent__title text-left"><%- title %></div>
+        <div class="newsContent">
+            <div class="newsContent__item">
+                <div class="d-flex justify-content-between">
+                    <h3 class="newsContent__item-title pr-4"><%- article.title %></h3>
+                    <span class="newsContent__item-date"><%- article.date %></span>
+                </div>
+                <div class="newsContent__item-img-box mb-5">
+                    <img src="./img/newsPage/news__img--2.jpg" alt=""
+                         class="img-fluid newsContent__item-img">
+                </div>
+                <% article.text.forEach((text) => { %>
+                <p class="newsContent__item-text"><%- text %></p>
+                <% }) %>
+                <div><img src="./img/common/share__icon.svg" alt="" class="share-btn"></div>
+            </div>
+        </div>
+        <div>
+            <img src="./img/newsPage/news__bg.png" alt="" class="newsContent__bg img-fluid">
+        </div>
+    </div>
+</section>

@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@import "../../utils/variables";
 
 html {
   font-size: 10px;
@@ -8,7 +8,6 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 1.4rem;
   color: $main-color;
-  font-weight: 300;
 }
 
 .h1 {
@@ -89,4 +88,17 @@ h2 {
   color: #fff;
   border-radius: 50px;
   text-transform: uppercase;
+}
+
+.share-btn {
+  cursor: pointer;
+}
+
+.icon-size {
+  width: 22px!important;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }

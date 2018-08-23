@@ -146,6 +146,40 @@
       }
     }
   },
+  "newsContent": {
+    "title": "Новости",
+    "items": [
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non commodo massa, in fringilla lectus. Curabitur mi turpis, dignissim at quam non, aliquet tempor neque. Etiam ac lectus mattis, tempor sem quis, tristique justo. Vestibulum vel rutrum ligula. Pellentesque vulputate, nibh quis semper tristique, augue ex ullamcorper dui, vel euismod sem ante vel nibh. Nunc commodo feugiat nunc eu vestibulum. Fusce interdum aliquam quam ut tincidunt. Integer tempor interdum est, sit amet dictum libero ultricies et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...",
+        "date": "28/05/2018"
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non commodo massa, in fringilla lectus. Curabitur mi turpis, dignissim at quam non, aliquet tempor neque. Etiam ac lectus mattis, tempor sem quis, tristique justo. Vestibulum vel rutrum ligula. Pellentesque vulputate, nibh quis semper tristique, augue ex ullamcorper dui, vel euismod sem ante vel nibh. Nunc commodo feugiat nunc eu vestibulum. Fusce interdum aliquam quam ut tincidunt. Integer tempor interdum est, sit amet dictum libero ultricies et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...",
+        "date": "28/05/2018"
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non commodo massa, in fringilla lectus. Curabitur mi turpis, dignissim at quam non, aliquet tempor neque. Etiam ac lectus mattis, tempor sem quis, tristique justo. Vestibulum vel rutrum ligula. Pellentesque vulputate, nibh quis semper tristique, augue ex ullamcorper dui, vel euismod sem ante vel nibh. Nunc commodo feugiat nunc eu vestibulum. Fusce interdum aliquam quam ut tincidunt. Integer tempor interdum est, sit amet dictum libero ultricies et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...",
+        "date": "28/05/2018"
+      }
+    ],
+    "showMore": "Показать еще"
+  },
+  "articleContent": {
+    "title": "Новости",
+    "article": {
+      "title": "Lorem ipsum dolor sit amet",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique tempus odio varius eleifend. Suspendisse et malesuada sapien. Donec nisl massa, eleifend quis ex vitae, faucibus dapibus tellus. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur neque est, hendrerit non mollis vitae, congue quis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed non accumsan augue, sit amet condimentum nunc. Pellentesque sed dolor pellentesque, feugiat lectus ut, accumsan est. Curabitur sodales, ex id mollis varius, nunc mi semper libero, porttitor accumsan nisi neque nec nisl. Curabitur in dictum felis, non molestie ipsum. Mauris ultrices ullamcorper turpis, et faucibus lectus blandit sit amet. Mauris et risus id ligula dapibus sodales. In hac habitasse platea dictumst.",
+        "Nullam eget odio tincidunt, tincidunt arcu eu, porttitor purus. Quisque efficitur metus et ultricies eleifend. Nullam pellentesque tincidunt sapien, sed scelerisque orci tempor id. Donec sagittis tempor purus quis pulvinar. Donec pellentesque placerat libero, non volutpat elit vehicula vel. Etiam quis augue eget dolor pellentesque feugiat. Etiam ullamcorper quam est, id ullamcorper risus ultricies sed. Nunc posuere tellus ligula, ut ullamcorper dolor imperdiet quis. Etiam ornare maximus felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo tortor, pretium ac feugiat eget, aliquet ac ligula. Ut vel vehicula mauris.",
+        "Cras iaculis pellentesque diam ut viverra. Morbi ipsum magna, tristique ac neque eget, tincidunt malesuada ex. Morbi blandit nisi dui, in egestas turpis vulputate quis. Aliquam vehicula nisi vel sodales dignissim. Praesent purus risus, commodo et luctus auctor, ultrices vitae ex. Vivamus elit mauris, pulvinar vel ligula a, posuere consectetur nunc. Donec at velit ante. Ut vel bibendum justo. Nullam justo eros, volutpat in consequat id, pharetra nec eros. Nunc vel libero quis sem gravida finibus. Fusce molestie mattis tortor sit amet pharetra. Donec tortor mauris, elementum ac iaculis vitae, pellentesque nec felis.",
+        "Nam quis lacus nisl. Proin eget convallis sapien. Morbi magna nisl, pretium vel sapien quis, tincidunt placerat mi. Vivamus dignissim ullamcorper tincidunt. Duis justo leo, ullamcorper in enim eget, accumsan euismod sapien. Aliquam eget risus non libero auctor cursus quis in arcu. Nulla a dolor purus."
+      ],
+      "date": "28/05/2018"
+    }
+  },
   "actionsSlider": {
     "title": "Акции компании",
     "items": [

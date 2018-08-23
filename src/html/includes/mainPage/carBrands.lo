@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <% carBrands.forEach((brand) => { %>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <a href="#" class="carBrands__btn">
                     <div class="carBrands__content">
                         <div class="carBrands__box carBrands__box--<%- brand %> h-100"></div>

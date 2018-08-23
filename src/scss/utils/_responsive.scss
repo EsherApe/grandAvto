@@ -1,0 +1,76 @@
+@media (max-width: 1400px) {
+  .slider {
+    padding: 0 8rem;
+    .slick-arrow {
+      &.slick-next img {
+        margin-right: -60px;
+      }
+      &.slick-prev img {
+        margin-left: -60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__contacts {
+      position: static;
+      padding: 0;
+      font-size: 12px;
+    }
+    &__search {
+      position: static;
+      width: auto;
+    }
+    .navbar-brand img {
+      max-width: 70px;
+    }
+    .list-inline-item {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    &__title {
+      font-size: 4rem;
+    }
+  }
+
+  .carBrands {
+    &__content {
+      height: 120px;
+    }
+    &__title {
+      font-size: 3rem;
+    }
+    &__box {
+      &--hyundai, &--kia {
+        background-position: 0 0;
+        background-size: 100%;
+      }
+    }
+  }
+
+  .indexContent {
+    &__info {
+      padding-bottom: 2rem;
+    }
+    &__contacts-img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .slider {
+    padding: 0;
+    .slick-arrow {
+      display: none;
+    }
+  }
+}

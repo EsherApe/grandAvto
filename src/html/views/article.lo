@@ -1,12 +1,10 @@
 <%
 //text data
-var {
-  head, footer, map, vinSearch, productContent, actionsSlider, similarSlider
-} = require('../../data.json');
+var { head, footer, map, vinSearch, articleContent, actionsSlider } = require('../../data.json');
 //templates
 var headerTpl = require('../includes/common/header.lo');
 var vinSearchTpl = require('../includes/common/vinSearch.lo');
-var productContentTpl = require('../includes/productPage/content.lo');
+var articleContentTpl = require('../includes/articlePage/content.lo');
 var sliderTpl = require('../includes/common/slider.lo');
 var mapTpl = require('../includes/common/map.lo');
 var footerTpl = require('../includes/common/footer.lo');
@@ -18,8 +16,7 @@ var options = (name) => ({variable: name});
 
 <main class="main">
     <%= _.template(vinSearchTpl, options('search'))(vinSearch) %>
-    <%= _.template(productContentTpl, options('content'))(productContent) %>
-    <%= _.template(sliderTpl, options('slider'))(similarSlider) %>
+    <%= _.template(articleContentTpl, options('content'))(articleContent) %>
     <%= _.template(sliderTpl, options('slider'))(actionsSlider) %>
     <%= _.template(mapTpl, options('map'))(map) %>
 </main>

@@ -6,21 +6,24 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~slick-carousel/slick/slick";
 
-//partials
-@import "partials/common";
-@import "partials/header";
-@import "partials/footer";
+//common components
+@import "partials/common/common";
+@import "partials/common/header";
+@import "partials/common/slider";
+@import "partials/common/map";
+@import "partials/common/footer";
 
 //index page
 @import "./partials/index/carBrands";
 @import "partials/index/indexContent";
-@import "./partials/index/slider";
-@import "./partials/index/map";
 //personal page
 @import "partials/personal/personalContent";
 //product page
-@import "partials/product/productView";
-@import "partials/product/productDesc";
+@import "partials/product/productContent";
+//news page
+@import "partials/news/newsContent";
+//article page
+@import "partials/article/articleContent";
 
 //responsive
 @import "utils/responsive";

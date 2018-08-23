@@ -1,6 +1,8 @@
 .carBrands {
   &__btn {
+    display: block;
     text-decoration: none;
+    padding: 2rem 5rem;
     &:hover {
       text-decoration: none;
       color: #000000;
@@ -8,7 +10,8 @@
   }
   &__content {
     position: relative;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     height: 200px;
     transform: skew(-30deg);
     background-color: #fff;

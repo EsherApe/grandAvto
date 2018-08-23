@@ -8,7 +8,8 @@
 
     <!--<link rel="shortcut icon" href="favicon/favicon.ico">-->
     <link rel="stylesheet" href="css/style.bundle.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Jura|Roboto&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Jura|Roboto&amp;subset=cyrillic"
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
@@ -19,50 +20,58 @@
     <div class="content">
         <header class="header">
             <div class="container position-relative">
-                <ul class="header__contacts list-unstyled list-inline">
-                    <li class="list-inline-item mr-5">
+                <ul class="header__contacts list-unstyled list-inline text-center text-lg-right">
+                    <li class="list-inline-item mr-lg-5">
                         <a href="#"><img src="./img/header/telegram__icon.svg" alt=""></a>
                         <a href="#"><img src="./img/header/viber__icon.svg" alt=""></a>
                         <a href="#"><img src="./img/header/whatsup__icon.svg" alt=""></a>
                         <a href="#"><img src="./img/header/messanger__icon.svg" alt=""></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="mailto:info@grand-auto.com.ua">
-                            <img src="./img/header/mail__icon.svg" alt="" style="max-width: 22px" class="mr-2">info@grand-auto.com.ua
+                        <a class="nav-link pr-0" href="mailto:info@grand-auto.com.ua">
+                            <img src="./img/header/mail__icon.svg" alt="" class="mr-2 icon-size d-none d-lg-inline">info@grand-auto.com.ua
                         </a>
                     </li>
                     <% contacts.forEach((contact) => { %>
                     <li class="list-inline-item mr-0">
-                        <a class="nav-link pr-0" href="tel:<%-contact%>">
-                            <img src="./img/header/phone__icon.svg" alt="" class="mr-2"> <%- contact %>
+                        <a class="nav-link pr-0" href="tel:<%- contact %>">
+                            <img src="./img/header/phone__icon.svg" alt="" class="mr-2 d-none d-lg-inline"> <%- contact %>
                         </a>
                     </li>
                     <% }) %>
                 </ul>
                 <nav id="navbar" class="navbar navbar-expand-lg navbar-light p-0">
                     <a class="navbar-brand" href="#"><img src="./img/common/logo.svg" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="input-group header__search">
-                            <input type="text" class="form-control" placeholder="Поиск" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group header__search mt-4 mt-lg-0">
+                            <input type="text" class="form-control" placeholder="Поиск"
+                                   aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2"><img src="./img/header/search__icon.svg" alt="" style="max-width: 16px"></span>
+                                <span class="input-group-text" id="basic-addon2"><img
+                                            src="./img/header/search__icon.svg" alt="" style="max-width: 16px"></span>
                             </div>
                         </div>
                         <ul class="navbar-nav ml-auto">
-                            <% Object.keys(navbar).forEach((key) => { %>
+                            <% _.each(navbar, (val, key) => { %>
                             <li class="nav-item">
-                                <a class="nav-link" href="#<%- key %>"><%- navbar[key] %></a>
+                                <a class="nav-link" href="#<%- key %>"><%- val %></a>
                             </li>
                             <% }) %>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><img src="./img/header/user__icon.svg" alt="" style="max-width: 22px"></a>
+                                <a class="nav-link" href="#">
+                                    <img src="./img/header/user__icon.svg" alt="" class="icon-size">
+                                </a>
                             </li>
                             <li class="nav-item mr-0">
-                                <a class="nav-link pr-0" href="#"><img src="./img/header/cart__icon.svg" alt="" style="max-width: 22px"></a>
+                                <a class="nav-link pr-0" href="#">
+                                    <img src="./img/header/cart__icon.svg" alt="" class="icon-size">
+                                </a>
                             </li>
                         </ul>
                     </div>
